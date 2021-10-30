@@ -22,9 +22,7 @@ The **demo** folder includes four *.py files:
 * *train.py* includes a function which is used for training or retraining a model. Since some models are provided in the
   repo, the user can skip this stage and use the existing models for the remaining analysis functions.
 * *single_image_interpolation.py* is used to show the inherent image interpolation capability of the model. It plots (
-  and saves) predicted images (of the training set) of different resolutions. exaple:
-  ![Screenshot](../implicit_representations/experiments/res_144_act_relu_loss_mse_embed_dim_4/image_interpolation_idx_96.png?raw=true)
-
+  and saves) predicted images (of the training set) of different resolutions.
 * *image_pair_interpolation.py* is used to visualize the similarity/dissimilarity of different images in the latent
   space and to demonstrate an interpolation between a pair of similar images with a sequenced *.gif.
 * **Note:** all the above functions can run from command line with user provided arguments.
