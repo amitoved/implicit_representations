@@ -18,13 +18,12 @@ sub-folders, are the saved models and figures generated from the training and th
 input hyperparameters lead to an existing experiment - the model will not be generated but will be loaded.
 ---
 The **demo** folder includes four *.py files:
-
 * *constants.py* includes some constants used by other functions
 * *train.py* includes a function which is used for training or retraining a model. Since some models are provided in the
   repo, the user can skip this stage and use the existing models for the remaining analysis functions.
 * *single_image_interpolation.py* is used to show the inherent image interpolation capability of the model. It plots (
   and saves) predicted images (of the training set) of different resolutions. exaple:
-  ![Screenshot](../implicit_representations/experiments/res_256_act_relu_loss_mse/image_interpolation_idx_78.png)
+  ![Screenshot](../implicit_representations/experiments/res_144_act_relu_loss_mse_embed_dim_4/image_interpolation_idx_96.png)
 
 * *image_pair_interpolation.py* is used to visualize the similarity/dissimilarity of different images in the latent
   space and to demonstrate an interpolation between a pair of similar images with a sequenced *.gif.
